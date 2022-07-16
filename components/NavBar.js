@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
+import config from "../config";
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
   return (
@@ -37,16 +38,20 @@ const NavBar = () => {
                 <hr className="translate-x-full opacity-0 group-hover:opacity-100 easeIn group-hover:translate-x-0 mt-2 border-[1px] rounded-sm border-main bg-main" />
               </h3>
             </a>
-            <h3 className="hover:cursor-pointer group">
-              Support
-              <hr className="translate-x-full opacity-0 group-hover:opacity-100 easeIn group-hover:translate-x-0 mt-2 border-[1px] rounded-sm border-main bg-main" />
-            </h3>
+            <a href="#features">
+              <h3 className="hover:cursor-pointer group">
+                Features
+                <hr className="translate-x-full opacity-0 group-hover:opacity-100 easeIn group-hover:translate-x-0 mt-2 border-[1px] rounded-sm border-main bg-main" />
+              </h3>
+            </a>
           </div>
           <div className="group flex items-center hover:cursor-pointer">
             <div className="text-main border-2 border-gray-100 p-1 sm:p-2 xl:p-3 rounded-lg group-hover:border-main group-hover:-skew-x-6 easeIn">
-              <h2 className="text-base md:text-lg lg:text-3xl xl:text-4xl">
-                Invite me
-              </h2>
+              <a target="_blank" href={config.inviteLink} rel="noreferrer">
+                <h2 className="text-base md:text-lg lg:text-3xl xl:text-4xl">
+                  Invite me
+                </h2>
+              </a>
             </div>
           </div>
         </div>
@@ -64,10 +69,12 @@ const NavBar = () => {
                 <hr className="translate-x-full opacity-0 group-hover:opacity-100 easeIn group-hover:translate-x-0 mt-2 border-[1px] rounded-sm border-main bg-main" />
               </h3>
             </a>
-            <h3 className="hover:cursor-pointer group w-fit">
-              Support
-              <hr className="translate-x-full opacity-0 group-hover:opacity-100 easeIn group-hover:translate-x-0 mt-2 border-[1px] rounded-sm border-main bg-main" />
-            </h3>
+            <a href="#features">
+              <h3 className="hover:cursor-pointer group w-fit">
+                Features
+                <hr className="translate-x-full opacity-0 group-hover:opacity-100 easeIn group-hover:translate-x-0 mt-2 border-[1px] rounded-sm border-main bg-main" />
+              </h3>
+            </a>
           </div>
         </div>
       </div>
