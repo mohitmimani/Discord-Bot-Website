@@ -1,0 +1,135 @@
+/**
+ * @license
+ *
+ * Font Family: Satoshi
+ * Designed by: Deni Anggara
+ * URL: https://www.fontshare.com/fonts/satoshi
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Satoshi Variable(Variable font)
+ * Satoshi Variable Italic(Variable font)
+ * Satoshi Light
+ * Satoshi Light Italic
+ * Satoshi Regular
+ * Satoshi Italic
+ * Satoshi Medium
+ * Satoshi Medium Italic
+ * Satoshi Bold
+ * Satoshi Bold Italic
+ * Satoshi Black
+ * Satoshi Black Italic
+ *
+*/
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: url("./fonts/Satoshi-Variable.woff2") format("woff2"),
+    url("./fonts/Satoshi-Variable.woff") format("woff"),
+    url("./fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    @apply scroll-smooth;
+    background: radial-gradient(
+        at bottom right,
+        #8099e9 0,
+        #8099e9 8px,
+        rgba(128, 153, 233, 0.2) 8px,
+        rgba(128, 153, 233, 0.2) 16px,
+        rgba(128, 153, 233, 0.75) 16px,
+        rgba(128, 153, 233, 0.75) 24px,
+        rgba(128, 153, 233, 0.25) 24px,
+        rgba(128, 153, 233, 0.25) 32px,
+        rgba(128, 153, 233, 0.3) 32px,
+        rgba(128, 153, 233, 0.3) 40px,
+        rgba(128, 153, 233, 0.75) 40px,
+        rgba(128, 153, 233, 0.75) 48px,
+        rgba(128, 153, 233, 0.2) 48px,
+        rgba(128, 153, 233, 0.2) 56px,
+        transparent 56px,
+        transparent 64px
+      ),
+      radial-gradient(
+        at top left,
+        transparent 0,
+        transparent 8px,
+        rgba(128, 153, 233, 0.2) 8px,
+        rgba(128, 153, 233, 0.2) 16px,
+        rgba(128, 153, 233, 0.75) 16px,
+        rgba(128, 153, 233, 0.75) 24px,
+        rgba(128, 153, 233, 0.3) 24px,
+        rgba(128, 153, 233, 0.3) 32px,
+        rgba(128, 153, 233, 0.25) 32px,
+        rgba(128, 153, 233, 0.25) 40px,
+        rgba(128, 153, 233, 0.75) 40px,
+        rgba(128, 153, 233, 0.75) 48px,
+        rgba(128, 153, 233, 0.2) 48px,
+        rgba(128, 153, 233, 0.2) 56px,
+        #8099e9 56px,
+        #8099e9 64px,
+        transparent 64px,
+        transparent 160px
+      );
+    background-blend-mode: multiply;
+    background-size: 64px 64px, 64px 64px;
+    background-color: #171430;
+  }
+}
+
+@layer components {
+  .font-satoshi {
+    font-family: Satoshi-Variable;
+  }
+  .easeIn {
+    @apply ease-in duration-300 transition-all;
+  }
+  .texture {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 32px,
+      #8099e9 32px,
+      #8099e9 39px
+    );
+    background-color: #171430;
+  }
+  .texture2 {
+    background-image: repeating-linear-gradient(
+      30deg,
+      transparent,
+      transparent 32px,
+      #8099e9 32px,
+      #8099e9 39px
+    );
+    background-color: #171430;
+  }
+}
