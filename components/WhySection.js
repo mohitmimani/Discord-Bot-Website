@@ -20,7 +20,7 @@ const WhySection = () => {
               className="h-72 bg-main max-w-[18rem] min-w-[100%] rounded-lg p-5"
             >
               <div className="flex flex-col gap-3">
-                <span className="text-dark ">{data.icon}</span>
+                <span className="text-dark ">{data.logo}</span>
                 <h3 className="text-4xl text-dark font-bold">{data.name}</h3>
                 <p className="text-dark xl:text-lg text-opacity-80">
                   {data.description}
