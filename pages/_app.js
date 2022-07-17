@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import config from "../config";
 import "../styles/globals.css";
 
@@ -9,7 +10,8 @@ function MyApp({ Component, pageProps }) {
     (data) => data.name
   )}`;
   const title = config.name;
-  const siteUrl = process.env.NEXT_PUBLIC_URL || "/lol";
+  const router = useRouter();
+  const siteUrl = process.env.NEXT_PUBLIC_URL + router.asPath;
   return (
     <div className="overflow-hidden">
       <Head>
