@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     (data) => data.name
   )}`;
   const title = config.name;
-  const siteUrl = process.env.NEXT_PUBLIC_URL || "/";
+  const siteUrl = process.env.NEXT_PUBLIC_URL || "/lol";
   return (
     <div className="overflow-hidden">
       <Head>
