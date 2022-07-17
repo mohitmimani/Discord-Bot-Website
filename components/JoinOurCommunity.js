@@ -80,12 +80,15 @@ const JoinOurCommunity = () => {
           </div>
           <div className="flex justify-center items-center sm:w-[50%]  gap-x-5">
             <a href={config.facebookLink} target="_blank" rel="noreferrer">
+              <span className="sr-only"> Social Handle</span>
               <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
             </a>
             <a href={config.discordLink} target="_blank" rel="noreferrer">
+              <span className="sr-only"> Social Handle</span>
               <FaDiscord className="h-10 w-10 text-[#738adb] hover:scale-125 easeIn cursor-pointer" />
             </a>
             <a href={config.youtubeLink} target="_blank" rel="noreferrer">
+              <span className="sr-only"> Social Handle</span>
               <BsYoutube className="h-10 w-10 text-[#FF0000] hover:scale-125 easeIn cursor-pointer" />
             </a>
           </div>
