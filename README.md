@@ -45,7 +45,8 @@ https://www.youtube.com/CodeWithMohit
 ## Usage
 
 First clone the project 
-```npm run build  
+``` js
+npm run build  
 npm start
 ```
 
