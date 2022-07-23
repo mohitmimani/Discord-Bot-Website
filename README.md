@@ -19,9 +19,9 @@
 
 Discord bot website made with help of Next js and Tailwind CSS.The cleanest discord bot website with awesome looks and designs.Best discord bot website Ever
 
-## Screenshots
+## Logo
 
-<img src="https://discord-probot.vercel.app/_next/image?url=%2Flogo.png&w=96&q=75" />
+<img src="/public/logo.png" />
 
 ## Built With
 
