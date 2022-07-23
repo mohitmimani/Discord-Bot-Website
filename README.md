@@ -46,7 +46,8 @@ https://www.youtube.com/CodeWithMohit
 
 First clone the project 
 ```npm run build  
-npm start```
+npm start
+```
 
 
 ## License
