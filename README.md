@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Screenshots](#screenshots)
+- [Logo](#logo)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -13,7 +13,6 @@
 - [Usage](#usage)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-- [Contacts](#contacts)
 
 ## Description
 
