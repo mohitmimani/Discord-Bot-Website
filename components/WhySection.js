@@ -8,7 +8,7 @@ const WhySection = () => {
           Why{" "}
           <div className="inline-flex">
             <div className="text-white">
-              <h2>Probot</h2>
+              <h2>{config.name}</h2>
               <hr className="border-8 border-main bg-main ml-2 relative -top-4 -z-50 opacity-75" />
             </div>
           </div>
