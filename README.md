@@ -39,7 +39,7 @@ Nothing
 
 ### Installation
 
-https://www.youtube.com/CodeWithMohit
+https://youtu.be/jYxo9JX5peI
 
 ## Usage
 
